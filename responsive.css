@@ -581,3 +581,69 @@ footer .navLinks a{
 
 
 }
+
+
+
+@media screen and  (max-width:450px){
+    nav{
+        padding: 0 25px;
+    }
+
+    /* section two  */
+    .secTwo .secTwoRight .flexCol .divContain{
+        width: 150px;
+    }
+     /* section four  */
+     .secFour .bgColor1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .secFour .bgColor1 .contaniDivss .projectDon{
+        width: 95%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     }
+    .secFour .bgColor1 .contaniDivss .projectDon img{
+        width: 30px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain h1{
+        font-size: 10px;
+        text-align: center;
+    }
+    .secTwo .secTwoRight .flexCol .divContain p{
+        font-size: 5px;
+        font-weight: 300;
+    }
+
+    /* section six */
+    .secSix{
+        height: 140px;
+    }
+    .secSix div img{
+        width: 60px;
+    }
+
+
+
+/* footer */
+footer .navLinks{
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    font-size: 10px;
+}
+footer .navLinks a{
+    font-size: 7px;
+}
+footer h6{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+}
