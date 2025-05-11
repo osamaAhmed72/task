@@ -1,0 +1,583 @@
+@media screen and  (max-width:1200px){
+     /* sec one */
+    .secOne .bgImg{
+        width:600px;
+    }
+    .secOne .explain{
+        left: 80px;
+    }
+    .secOne .explain h1{
+        font-size: 53px;
+        
+    }
+    /* section two  */
+    
+    .secTwo{
+        padding-left: 90px;
+        grid-template-columns:1fr 2fr;
+    }
+    .secTwo .secTwoLeft h1 {
+        font-size: 45px;
+    }
+    .secTwo .secTwoLeft p{
+        width: 70%;
+        font-size: 14px;
+        
+    }
+    .secTwo .secTwoRight .flexCol .divContain{
+        width: 275px;
+        padding: 10px;
+    }
+
+      /* section four  */
+    .secFour .bgColor1 .contaniDivss{
+        gap: 100px;
+    }
+          /* section five  */
+    .secFive {
+        grid-template-columns:600px 300px;
+    }
+    .secFive img{
+        width: 300px;
+    }
+    /* section six */
+    .secSix div img{
+        width: 180px;
+    }
+    /* section nine */
+    .secNine .cotainerSecNine .contaierCard .card{
+        width: 400px;
+        height: 250px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card img{
+        width: 200px;
+        height: 200px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard h5{
+        margin-bottom: 40px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard p{
+        color: rgb(156, 155, 155);
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    /* section Twelve */
+    .secTwelve .testemonials .testemonialLeft {
+        width: 400px;
+    }
+    .secTwelve .testemonials .testemonialRight{
+        width: 400px;
+    }
+
+}
+
+
+
+@media screen and  (max-width:992px){
+    /* sec one */
+    .secOne .bgImg{
+        width:400px;
+    }
+    .secOne .explain{
+        left: 80px;
+        width: 350px;
+    }
+    .secOne .explain h1{
+        font-size: 33px;
+        
+    }
+     /* section two  */
+    .secTwo{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 20px;
+        padding-left: 160px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain{
+        width: 270px;
+        padding: 15px;
+    }
+
+    /* section three  */
+    .secThree{
+        height: 500px;
+    }
+    .secThree .rightOfsec3 h1{
+        font-size: 32px;
+    }
+    .secThree .rightOfsec3{
+        max-width: 500px;
+    }
+    .secThree img{
+        width: 300px;
+    }
+    .secThree .rightOfsec3 .cleanCode .cleanCodeContainer .detailsClean p{
+        margin-bottom: 70px;
+    }
+
+    /* section four  */
+    .secFour .bgColor1 .contaniDivss{
+        gap: 50px;
+    }
+    .secFour .bgColor1 .contaniDivss .projectDon img{
+        width: 80px;
+    }
+     /* section five  */
+    .secFive {
+        grid-template-columns:400px 200px;
+        margin-left: 5px;
+    }
+
+    .secFive img{
+        width: 200px;
+    }
+    .imgContain{
+        gap: 10px;
+    }
+    .secFive .paragraphContain h1{
+        font-size: 43px;
+    }
+    .secFive .paragraphContain p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    /* section six */
+    .secSix div img{
+        width: 130px;
+    }
+    .secSix div{
+        gap: 5px;
+    }
+    /* section seven */
+    .secSeven .paragraphDiscription  .lefttt{
+        max-width: 40%;
+    }
+    .secSeven .paragraphDiscription  .rightttt{
+        max-width: 40%;
+    }
+    .secSeven .paragraphDiscription h1{
+        font-size: 34px;
+    }
+    .secSeven .paragraphDiscription  .videoIcon{
+        width: 290px;
+        height: 200px;
+    }
+    .secSeven .paragraphDiscription  .videoIcon img{
+        width: 290px;
+        height: 200px;
+    }
+    /* section nine */
+    .secNine .cotainerSecNine .contaierCard .card{
+        width: 320px;
+        height: 200px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card img{
+        width: 160px;
+        height: 160px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard h1{
+        font-size: 16px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard h5{
+        margin-bottom: 30px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard p{
+        color: rgb(156, 155, 155);
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+    /* section eleven */
+.secEleven img{
+    width: 220px;
+}
+
+ /* section Twelve */
+.secTwelve .testemonials .testemonialLeft {
+    width: 300px;
+}
+.secTwelve .testemonials .testemonialLeft h1 {
+    font-size: 30px;
+}
+
+.secTwelve .testemonials .testemonialLeft p{
+    font-size: 12px;
+}
+
+.secTwelve .testemonials .testemonialLeft button{
+    padding: 10px;
+}
+
+
+.secTwelve .testemonials .testemonialRight{
+    width: 300px;
+    padding: 20px;
+}
+.secTwelve .testemonials .testemonialRight p{
+    font-size: 12px;
+}
+
+/* section Fourteen */
+
+.secFourteen{
+    padding: 15px;
+}
+
+
+
+}
+
+
+@media screen and  (max-width:768px){
+    nav .navLinks a{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    /* sec one */
+    .secOne .bgImg{
+        display: none;
+    }
+    .secOne .explain{
+        left: 80px;
+        width: 80%;
+    }
+     /* section two  */
+     .secTwo{
+        padding-left: 40px;
+     }
+     .secTwo .secTwoRight .flexCol .divContain{
+        width: 260px;
+        padding: 15px;
+    }
+     /* section three  */
+    .secThree .lHandImg{
+        display: none; 
+    }
+    /* section four  */
+    .secFour .bgColor1 .contaniDivss{
+        gap: 20px;
+    }
+    .secFour .bgColor1 .contaniDivss .projectDon img{
+        width: 80px;
+    }
+    .secFour .bgColor1 .contaniDivss .projectDon h1{
+        font-size: 23px;
+    }
+    .secFour .bgColor1 .contaniDivss .projectDon h1 span{
+        color: white;
+        font-size: 14px;
+    }
+    .secFour .bgColor1 .contaniDivss .projectDon p{
+        font-size: 14px;
+    }
+
+     /* section five  */
+    .secFive {
+        grid-template-columns:1fr;
+        margin-left: 140px;
+        width: 70%;
+    }
+
+    .secFive img{
+        width: 230px;
+    }
+    .imgContain{
+        gap: 15px;
+    }
+    .secFive .paragraphContain h1{
+        font-size: 43px;
+    }
+    .secFive .paragraphContain p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .imgContain{
+        flex-direction: column;
+    }
+    /* section six */
+    .secSix{
+        height: 180px;
+    }
+    .secSix div img{
+        width: 90px;
+    }
+/* section seven */
+.secSeven .paragraphDiscription h1{
+    font-size: 28px;
+}
+.secSeven .paragraphDiscription  .videoIcon{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+}
+.secSeven .paragraphDiscription  .videoIcon img{
+    width: 200px;
+    height: 100px;
+}
+/* section nine */
+.cotainerSecNine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secNine .cotainerSecNine .contaierCard{
+    flex-direction: column;
+}
+.secNine .cotainerSecNine .contaierCard .card{
+    width: 500px;
+    height: 300px;
+}
+
+.secNine .cotainerSecNine .contaierCard .card img{
+    width: 250px;
+    height: 250px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard h5{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* section eleven */
+.secEleven{
+    grid-template-columns: repeat(2, auto); 
+}
+.secEleven img{
+    width: 250px;
+}
+
+
+/* section Twelve */
+.secTwelve .testemonials{
+    display: flex;
+    flex-direction: column;
+}
+.secTwelve .testemonials .testemonialLeft {
+    width: 500px;
+}
+.secTwelve .testemonials .testemonialLeft h1 {
+    font-size: 50px;
+}
+.secTwelve .testemonials .testemonialLeft p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.secTwelve .testemonials .testemonialLeft button{
+    padding: 15px;
+}
+.secTwelve .testemonials .testemonialRight{
+    width: 500px;
+    padding: 30px;
+}
+.secTwelve .testemonials .testemonialRight p{
+    font-size: 15px;
+}
+/* section fifteen */
+.secFifteen{
+    flex-direction: column-reverse;
+    height: 1000px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and  (max-width:600px){
+
+    nav{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    nav .navLinks a{
+        display: none;
+    }
+    nav .navLinks .fa-magnifying-glass{
+        display: none;
+    }
+    nav .navLinks .fa-bars{
+        display: block;
+    }
+
+    /* section two  */
+    .secTwo .secTwoRight .flexCol .divContain{
+        width: 200px;
+        padding: 10px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain img{
+        width: 50px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain h1{
+        font-size: 14px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain p{
+        font-size: 11px;
+    }
+
+    /* section three  */
+    .secThree {
+        padding: 0 20px;
+    }
+    .secThree .rightOfsec3 h1{
+        font-size: 25px;
+    }
+    .secThree .rightOfsec3{
+        width: 100%;
+    }
+     /* section four  */
+    .secFour .bgColor1 .contaniDivss .projectDon img{
+        width: 40px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain h1{
+        font-size: 13px;
+    }
+    .secTwo .secTwoRight .flexCol .divContain p{
+        font-size: 10px;
+    }
+    /* section five  */
+    .secFive {
+        margin-left: 50px;
+    }
+
+    /* section six */
+    .secSix{
+        height: 140px;
+    }
+    .secSix div img{
+        width: 70px;
+    }
+
+    /* section seven */
+    .secSeven .paragraphDiscription .rightttt p{
+        display: none;
+    }
+    .secSeven .paragraphDiscription .rightttt .iconsss{
+        display: none;
+    }
+    .secSeven .paragraphDiscription{
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .secSeven .paragraphDiscription h1{
+        font-size: 34px;
+    }
+    .secSeven .paragraphDiscription  .lefttt{
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+    .secSeven .paragraphDiscription  .rightttt{
+        max-width: 90%;
+        transform: translateY(0);
+    }
+    .secSeven .paragraphDiscription  .videoIcon{
+        width: 300px;
+        height: 150px;
+    }
+    .secSeven .paragraphDiscription  .videoIcon img{
+        width: 300px;
+        height: 150px;
+    }
+
+/* section nine */
+    .secEight .contain-para p{
+        width: 65%;
+    }
+
+    /* section nine */
+    .secNine .cotainerSecNine .contaierCard .card{
+        width: 350px;
+        height: 250px;
+    }
+    
+    .secNine .cotainerSecNine .contaierCard .card img{
+        width: 200px;
+        height: 200px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard h5{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .secNine .cotainerSecNine .contaierCard .card .detailsCard p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+      /* section ten */
+    .secTen p{
+        width: 65%;
+    }
+
+    /* section eleven */
+.secEleven{
+    grid-template-columns: repeat(2, auto); 
+}
+.secEleven img{
+    width: 150px;
+}
+
+/* section Twelve */
+
+.secTwelve .testemonials .testemonialLeft {
+    width: 350px;
+}
+.secTwelve .testemonials .testemonialLeft h1 {
+    font-size: 30px;
+}
+.secTwelve .testemonials .testemonialLeft p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.secTwelve .testemonials .testemonialLeft button{
+    padding: 10px;
+}
+.secTwelve .testemonials .testemonialRight{
+    width: 350px;
+    padding: 30px;
+}
+.secTwelve .testemonials .testemonialRight p{
+    font-size: 12px;
+}
+
+/* section fifteen */
+.secFifteen{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.secFifteen form{
+    max-width: 400px;
+    
+}
+
+/* footer */
+footer .navLinks{
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .navLinks a{
+    font-size: 10px;
+}
+
+    /* --------------------------- */
+
+
+}

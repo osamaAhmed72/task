@@ -1,0 +1,1055 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    background-color: black;
+}
+
+/* ------------navbar start----------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(18, 17, 17);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    animation-name: navAnimation;
+    animation-duration: 3s;
+}
+
+@keyframes navAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* logo design */
+nav .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+nav .logo h1{
+    color: rgb(106, 243, 209);
+    font-size: 40px;
+    font-weight: bolder;
+}
+nav .logo p{
+    color: white;
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+/* links design */
+
+nav .navLinks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .navLinks a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+nav .navLinks a:hover{
+    color: rgb(106, 243, 209);
+}
+nav .navLinks .fa-magnifying-glass{
+    color: rgb(106, 243, 209);
+    padding: 8px 10px 0 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav .navLinks .fa-magnifying-glass:hover{
+    color: white;
+}
+nav .navLinks .fa-bars{
+    color: rgb(106, 243, 209);
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+    display: none;
+}
+nav .navLinks .fa-bars:hover{
+    color: white;
+}
+
+
+/* ------------section one started--------- */
+
+.secOne{
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+}
+.secOne .bgImg{
+    width:750px;
+    height: 750px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    animation-name: bgImg;
+    animation-duration: 3s;
+}
+@keyframes bgImg {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.secOne .bgColor{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:linear-gradient(to right , rgba(0, 0, 0, 0) 40%,rgba(106, 243, 209, 0.184) );
+    animation-name: navAnimation;
+    animation-duration: 3s;
+}
+
+.secOne .explain{
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    width: 650px;
+    z-index: 7;
+    animation-name: explain;
+    animation-duration: 3s;
+}
+@keyframes explain {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.secOne .explain h5{
+    color: rgb(106, 243, 209);
+}
+.secOne .explain h1{
+    font-size: 63px;
+    color: white;
+    margin-top: 15px;
+}
+.secOne .explain h1 span{
+    color: rgb(106, 243, 209);
+}
+.secOne .explain hr{
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+.secOne .explain .pOne{
+    color: rgb(156, 155, 155);
+    width: 70%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.secOne .explain .aboutUs{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 50px;
+}
+.secOne .explain .aboutUs i{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color:rgb(106, 243, 209) ;
+    border: 5px solid rgb(24, 128, 103);
+    box-shadow: 0 0 10px 0 rgba(106, 243, 209, 0.645);
+}
+.secOne .explain .aboutUs .rirhtAboutUs{
+    width: 100px;
+}
+.secOne .explain .aboutUs .rirhtAboutUs .topP{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.secOne .explain .aboutUs .rirhtAboutUs hr{
+    width: 82px;
+    border:1px solid rgba(196, 196, 196, 0.223);
+}
+.secOne .explain .aboutUs .rirhtAboutUs .bottomP{
+    color:rgb(106, 243, 209) ;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+/* ---------section two started--------- */
+
+.secTwo{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:1.3fr 2fr;
+    gap: 20px;
+    padding-left: 180px;
+}
+
+.secTwo .secTwoLeft h5{
+    color: rgb(106, 243, 209);
+}
+.secTwo .secTwoLeft h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+}
+.secTwo .secTwoLeft h1 span{
+    color: rgb(106, 243, 209);
+}
+.secTwo .secTwoLeft hr{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+
+.secTwo .secTwoLeft p{
+    color: rgb(156, 155, 155);
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.secTwo .secTwoLeft button{
+    padding: 15px;
+    background-color:rgb(106, 243, 209) ;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.secTwo .secTwoLeft button:hover{
+    background-color:white ;
+    color: rgb(106, 243, 209);
+    box-shadow: 0 0 15px 0 white;
+}
+/* -----section two right------- */
+
+.secTwo .secTwoRight{
+    display: flex;
+    gap: 10px;
+}
+.secTwo .secTwoRight .flexCol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secTwo .secTwoRight .flexCol .divContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+}
+.secTwo .secTwoRight .flexCol .divContain img{
+    width: 80px;
+}
+.secTwo .secTwoRight .flexCol .divContain h1{
+    color: white;
+}
+.secTwo .secTwoRight .flexCol .divContain p{
+    color: rgb(156, 155, 155);
+    text-align: center;
+}
+.secTwo .secTwoRight .flexCol .noGradiant {
+    background-color: rgb(11, 11, 11);
+}
+.secTwo .secTwoRight .flexCol .gradiant{
+    background-image: linear-gradient(180deg , rgba(0, 0, 0, 0) 1%,rgba(106, 243, 209, 0.184) );
+}
+
+.secTwo .secTwoRight .gradiantUp{
+    padding-top:25px;
+}
+
+/* ---------section three started--------- */
+
+
+.secThree{
+    margin-bottom: 0;
+    margin-top: 100px;
+    background-color: rgb(11, 11, 11);
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.secThree img{
+    width: 400px;
+}
+.secThree .rightOfsec3{
+    max-width: 600px;
+}
+.secThree .rightOfsec3 h5{
+    color: rgb(106, 243, 209);
+}
+.secThree .rightOfsec3 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+}
+.secThree .rightOfsec3 h1 span{
+    color: rgb(106, 243, 209);
+}
+.secThree .rightOfsec3 hr{
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+.secThree .rightOfsec3 p{
+    color: rgb(156, 155, 155);
+    width: 70%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.secThree .rightOfsec3 .cleanCode{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    /* align-items: flex-start; */
+}
+.secThree .rightOfsec3 .cleanCode .cleanCodeContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.secThree .rightOfsec3 .cleanCode .cleanCodeContainer img{
+    width: 50px;
+}
+.secThree .rightOfsec3 .cleanCode .cleanCodeContainer .detailsClean h3{
+    color: white;
+}
+.secThree .rightOfsec3 .cleanCode .cleanCodeContainer .detailsClean p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+/* ---------section four started--------- */
+
+.secFour{
+    height: 300px;
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.secFour .bgColor1{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to left , rgba(1, 56, 43, 0.436)20%,rgba(106, 243, 209, 0.184) );
+}
+
+.secFour .bgColor1 .contaniDivss{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 150px;
+    height: 100%;
+}
+.secFour .bgColor1 .contaniDivss .projectDon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.secFour .bgColor1 .contaniDivss .projectDon img{
+    width: 100px;
+}
+.secFour .bgColor1 .contaniDivss .projectDon h1{
+    color: rgb(106, 243, 209);
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.secFour .bgColor1 .contaniDivss .projectDon h1 span{
+    color: white;
+    font-size: 20px;
+}
+.secFour .bgColor1 .contaniDivss .projectDon p{
+    color: white;
+    font-size: 20px;
+}
+/* ---------section five started--------- */
+.secFive {
+    display: grid;
+    grid-template-columns:680px 340px;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    /* padding: 0 200px; */
+}
+
+.secFive .paragraphContain h5{
+    color: rgb(106, 243, 209);
+}
+.secFive .paragraphContain h1{
+    font-size: 63px;
+    color: white;
+    margin-top: 15px;
+}
+.secFive .paragraphContain h1 span{
+    color: rgb(106, 243, 209);
+}
+.secFive .paragraphContain hr{
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+.secFive .paragraphContain p{
+    color: rgb(156, 155, 155);
+    /* width: 70%; */
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.secFive .paragraphContain .correct{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.secFive .paragraphContain .correct i{
+    color:rgb(106, 243, 209) ;
+}
+.secFive .paragraphContain .correct h6{
+    color: white;
+}
+.secFive img{
+    width: 300px;
+}
+.imgContain{
+    display: flex;
+    gap: 40px;
+}
+
+/* section six */
+.secSix{
+    height: 250px;
+    background-image: url('side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+.secSix div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to left , rgba(1, 56, 43, 0.436)20%,rgba(0, 0, 0, 0.766) );
+}
+.secSix div img{
+    width: 200px;
+    filter: grayscale(1);
+}
+
+/* section seven */
+.secSeven{
+    margin-top: 80px;
+}
+.secSeven .paragraphDiscription{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.secSeven .paragraphDiscription  .lefttt{
+    max-width: 40%;
+    margin-bottom: 50px;
+}
+.secSeven .paragraphDiscription  .rightttt{
+    max-width: 40%;
+    transform: translateY(60px);
+    margin-bottom: 50px;
+}
+.secSeven .paragraphDiscription h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.secSeven .paragraphDiscription h1 span{
+    color: rgb(106, 243, 209);
+}
+.secSeven .paragraphDiscription h5{
+    color: rgb(106, 243, 209);
+}
+.secSeven .paragraphDiscription .rightttt p{
+    color: rgb(156, 155, 155);
+    margin-bottom:50px;
+    max-width: 80%;
+}
+.secSeven .paragraphDiscription .rightttt .iconsss{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.secSeven .paragraphDiscription .rightttt .iconsss i{
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color:rgb(106, 243, 209) ;
+}
+.secSeven .paragraphDiscription .rightttt .iconsss h6{
+    color: white;
+}
+
+
+.secSeven .paragraphDiscription  .videoIcon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:400px ;
+    height: 250px;
+    margin-top: 100px;
+}
+.secSeven .paragraphDiscription  .videoIcon img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 250px;
+}
+.secSeven .paragraphDiscription .videoIcon i{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* section Eight */
+.secEight{
+    height: 300px;
+    background-image: url('Bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.contain-para{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.secEight .contain-para h5{
+    color: rgb(106, 243, 209);
+    text-align: center;
+}
+.secEight .contain-para h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.secEight .contain-para h1 span{
+    color: rgb(106, 243, 209);
+}
+.secEight .contain-para hr{
+    width: 5%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+    text-align: center;
+}
+.secEight .contain-para p{
+    color: rgb(156, 155, 155);
+    width: 45%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* section nine */
+.secNine{
+    /* height: 700px; */
+    background-image: url('Bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.secNine .cotainerSecNine{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.secNine .cotainerSecNine .contaierCard{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.secNine .cotainerSecNine .contaierCard .card{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    gap: 15px;
+}
+.secNine .cotainerSecNine .contaierCard .card img{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(1);
+    transform: translateY(-25px);
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard h1{
+    color: white;
+    margin-top: 10px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard h5{
+    color: rgb(106, 243, 209);
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard p{
+    color: rgb(156, 155, 155);
+    margin-bottom: 60px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard .iconsCard{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.secNine .cotainerSecNine .contaierCard .card .detailsCard .iconsCard i{
+    font-size: 20px;
+    border-radius: 50%;
+    color: rgb(106, 243, 209);
+
+}
+
+/* section ten */
+
+.secTen{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.secTen h5{
+    color: rgb(106, 243, 209);
+    margin-bottom: 15px;
+}
+.secTen h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.secTen h1 span{
+    color: rgb(106, 243, 209);
+}
+.secTen hr{
+    width: 5%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+.secTen p{
+    color: rgb(156, 155, 155);
+    width: 45%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* section eleven */
+.secEleven{
+    display: grid;
+    grid-template-columns: repeat(3, auto); 
+    justify-content: center;  
+    align-content: center;    
+    gap: 10px;
+}
+.secEleven img{
+    width: 300px;
+}
+
+
+/* section Twelve */
+.secTwelve{
+    background-image: url('adadad.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    margin-top: 60px;
+}
+
+.secTwelve .testemonials{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.secTwelve .testemonials .testemonialLeft {
+    width: 500px;
+}
+.secTwelve .testemonials .testemonialLeft h5{
+    color: rgb(106, 243, 209);
+}
+.secTwelve .testemonials .testemonialLeft h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+}
+.secTwelve .testemonials .testemonialLeft h1 span{
+    color: rgb(106, 243, 209);
+}
+.secTwelve .testemonials .testemonialLeft hr{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+
+.secTwelve .testemonials .testemonialLeft p{
+    color: rgb(156, 155, 155);
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.secTwelve .testemonials .testemonialLeft button{
+    padding: 15px;
+    background-color:rgb(106, 243, 209) ;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.secTwelve .testemonials .testemonialLeft button:hover{
+    background-color:white ;
+    color: rgb(106, 243, 209);
+    box-shadow: 0 0 15px 0 white;
+}
+
+.secTwelve .testemonials .testemonialRight{
+    width: 500px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.secTwelve .testemonials .testemonialRight p{
+    color: rgb(156, 155, 155);
+    font-size: 15px;
+}
+
+.secTwelve .testemonials .testemonialRight .flexRightTest{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.secTwelve .testemonials .testemonialRight .flexRightTest .personalImg{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+.secTwelve .testemonials .testemonialRight .flexRightTest .personalImg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.secTwelve .testemonials .testemonialRight .flexRightTest .personalImg h2{
+    font-size: 20px;
+    color: white;
+}
+.secTwelve .testemonials .testemonialRight .flexRightTest .personalImg h5{
+    color: rgb(106, 243, 209);
+    margin-top: 10px;
+}
+.secTwelve .testemonials .testemonialRight .flexRightTest i{
+    font-size: 40px;
+    color: rgb(106, 243, 209);
+    transform: translateY(20px);
+}
+
+
+
+/* section Fourteen */
+
+.secFourteen{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+.secFourteen .cardDetails{
+    width: 300px;
+}
+.secFourteen .cardDetails img{
+    width: 300px;
+}
+.secFourteen .cardDetails h4{
+    color: rgb(106, 243, 209);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.secFourteen .cardDetails p{
+    color: rgb(156, 155, 155);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.secFourteen .cardDetails .flexCardDetail{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.secFourteen .cardDetails .flexCardDetail .oneCardDate{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.secFourteen .cardDetails .flexCardDetail .oneCardDate i{
+    color: rgb(106, 243, 209);
+    font-size: 16px;
+}
+.secFourteen .cardDetails .flexCardDetail .oneCardDate h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* section fifteen */
+.secFifteen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 3px;
+    height: 600px;
+    background-color: rgba(34, 34, 34, 0.748);
+}
+.secFifteen form{
+    width: 500px;
+    border: 1px solid rgb(106, 243, 209);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.secFifteen form label{
+    color: rgb(106, 243, 209);
+    margin-bottom: 5px;
+}
+.secFifteen form input{
+    background-color: rgba(34, 34, 34, 0.748);
+    border: 1px solid rgb(106, 243, 209);
+    margin-bottom: 20px;
+    height: 40px;
+}
+.secFifteen form textarea{
+    border: 1px solid rgb(106, 243, 209);
+    background-color: rgba(34, 34, 34, 0.748);
+    height: 130px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.secFifteen form button{
+        padding: 15px;
+        background-color:rgb(106, 243, 209) ;
+        font-size: 16px;
+        margin-bottom: 70px;
+        margin-right: 40px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+}
+.secFifteen form button:hover{
+    background-color:white ;
+    color: rgb(106, 243, 209);
+    box-shadow: 0 0 15px 0 white;
+}
+
+.secFifteen .formDiscription{
+    max-width: 500px;
+}
+.secFifteen .formDiscription h5{
+    color: rgb(106, 243, 209);
+}
+.secFifteen .formDiscription h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+}
+.secFifteen .formDiscription h1 span{
+    color: rgb(106, 243, 209);
+}
+.secFifteen .formDiscription hr{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:2px solid rgb(106, 243, 209);
+}
+.secFifteen .formDiscription p{
+    color: rgb(156, 155, 155);
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.secFifteen .formDiscription .location{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.secFifteen .formDiscription .location i{
+    color: rgb(106, 243, 209);
+    font-size: 27px;
+}
+.secFifteen .formDiscription .location .locationDetails h4{
+    color: white;
+    margin-bottom: 8px;
+    margin-top: 7px;
+}
+.secFifteen .formDiscription .location .locationDetails h6{
+    color: rgb(106, 243, 209);
+}
+
+/* footer */
+footer{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at center, rgba(106, 243, 209, 0.212),black 40%);
+}
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+footer .logo h1{
+    color: rgb(106, 243, 209);
+    font-size: 40px;
+    font-weight: bolder;
+}
+footer .logo p{
+    color: white;
+    font-size: 10px;
+    margin-top: -5px;
+}
+footer .navLinks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+footer .navLinks a{
+    color: rgb(106, 243, 209);
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+footer .navLinks a:hover{
+    color: white;
+}
+
+footer .footer{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    max-width: 400px;
+}
+footer .iconFooter{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+footer .iconFooter i{
+    font-size: 20px;
+    border-radius: 50%;
+    color: rgb(106, 243, 209);
+}
+footer h6{
+    margin-top: 100px;
+    color: rgb(156, 155, 155);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
