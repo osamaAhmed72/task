@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: Outfit;
 }
-
+/* html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+} */
 body{
     background-color: black;
 }
@@ -21,8 +24,10 @@ nav{
     animation-name: navAnimation;
     animation-duration: 3s;
 }
-
-
+/* side nav */
+.sidenav{
+    display: none;
+}
 @keyframes navAnimation {
     0%{
         opacity: 0;
@@ -84,44 +89,6 @@ nav .navLinks .fa-bars{
     display: none;
 }
 nav .navLinks .fa-bars:hover{
-    color: white;
-}
-/* sidebar */
-.sidenav{
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(18, 17, 17);
-    width: 200px;
-    z-index: 90;
-    padding-top: 100px;
-    padding-left: 15px;
-    display: none;
-    transition: 0.4s;
-}
-.dispalaySidenav{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.sidenav a{
-    color: white;
-    text-decoration: none;
-    padding: 0 10px;
-    transition: 0.4s;
-}
-.sidenav a:hover{
-    color: rgb(106, 243, 209);
-}
-.sidenav .fa-magnifying-glass{
-    color: rgb(106, 243, 209);
-    padding: 8px 10px 0 10px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-.sidenav .fa-magnifying-glass:hover{
     color: white;
 }
 
